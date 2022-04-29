@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+@font-face {
+  * {
+    font-family: Manrope;
+    src: url("https://fonts.google.com/specimen/Manrope");
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 98vh;
+  background-color: #1f2632;
+}
+
+.attribution {
+  text-align: center;
+  color: #cee3e9;
+}
+.attribution a {
+  color: #52ffa8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  max-width: 500px;
+  min-width: 375px;
+}
+
+.pasage {
+  background-color: #323a49;
+  color: #cee3e9;
+  display: block;
+  min-width: 370px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.pasage h5 {
+  letter-spacing: 4px;
+  color: #52ffa8;
+}
+.pasage p {
+  font-size: 28px;
+  margin: 15px 30px;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+.next {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #52ffa8;
+  margin: 0 auto;
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+}
+.next :hover {
+  box-shadow: 0 0 10px #52ffa8, 0 0 40px #52ffa8, 0 0 80px #52ffa8;
+}
+.next img[src="images/icon-dice.svg"] {
+  position: relative;
+  left: 18px;
+  top: 18px;
+}
+
+.attribution {
+  position: sitcky;
+  top: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    padding: 10px;
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  .divider img {
+    src: "images/pattern-divider-mobile";
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
